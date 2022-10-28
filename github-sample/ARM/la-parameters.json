@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": { 
         "location": {
-            "value": "westus2"
+            "value": "eastus"
         },
         "environmentName": {
-            "value": "env-name"
+            "value": "env-avn"
         },
         "projectName": {
-            "value": "project-name"
+            "value": "project-avn"
         },
         "logicAppName": {
-            "value": "la-name"
+            "value": "la-avn"
         },
         "appServicePlanName": {
-            "value": "asp-name"
+            "value": "asp-avn"
         },
         "storageName": {
-            "value": "storage-name"
+            "value": "storageavn1"
         },
         "kind": {
             "value": "StorageV2"
