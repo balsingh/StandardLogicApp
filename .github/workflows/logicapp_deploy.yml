@@ -17,7 +17,7 @@ on:
   # Triggers when an environment file has been changed  
   push:
     paths:
-      - "logic/**"
+      - "github-sample/logic/**"
       - ".github/workflows/logicapp_deploy.yml"
 
 jobs:
@@ -80,4 +80,4 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          az functionapp deploy --resource-group ${{ secrets.RG_LA }} --name ${{ env.LA_NAME }} --src-path  logic/azure.parameters.json --type static --target-path parameters.json
+          az functionapp deploy --resource-group ${{ secrets.RG_LA }} --name ${{ env.LA_NAME }} --src-path  github-sample/logic/azure.parameters.json --type static --target-path parameters.json
